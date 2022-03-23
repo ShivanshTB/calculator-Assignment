@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif,'Times New Roman', Times;
+}
+
+.heading{
+   text-align: center;
+   font-size: 3vw;
+   background-color: aqua;
+}
+article{
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+.calculator{ 
+    border: 2px solid #0c0c0c;
+    background-color: #eff3f2;
+    padding: 2%;
+    border-radius: 20pt;
+    display: inline-block;
+    box-shadow: 2px 2px 5px #0c0c0c;
+}
+table{
+    margin: auto;
+    margin-top: 1.5%;
+}
+input{
+    margin-top: 1.3%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    height: 5vw;
+    width: 33vw;
+    box-shadow: 1px 1px 3px #acabab;
+    cursor: auto;
+}
+button{
+    border-radius: 50px;
+    font-size: 2.3vw;
+    font-weight: 800;
+    background: #ffffff;
+    outline: none;
+    border: none;
+    width: 5.5vw;
+    height: 5.5vw;
+    margin: 1pt;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #979696;
+}
+.two{
+    width: 14vw;
+}
+button:hover{
+    background-color: rgb(214, 216, 209);
+}
+.equal{
+    background-color: orange;
+    color: #ffffff;
+}
+.clear{
+    background-color: rgb(236, 46, 46);
+    color: #ffffff;
+}
+.colour:hover{
+    color: black;
+}
